@@ -6,7 +6,7 @@ import torch.optim as optim
 from torch.utils.data import DataLoader, Dataset
 import soundfile as sf
 
-file_name_template = '/Users/samarthrao/Downloads/Todi_Audio_Files/KVN_todi_1/phrases/phrase_%s.mp3'
+file_name_template = '/nas/longleaf/home/samarth/phrases/phrase_%s.mp3'
 features = []
 
 # Function to pad audio
