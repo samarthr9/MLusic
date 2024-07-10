@@ -4,7 +4,7 @@ import soundfile as sf
 from pydub import AudioSegment
 
 # Load the saved tensor
-predicted_chunk = torch.load('/Users/samarthrao/Downloads/Todi_Audio_Files/KVN_todi_1/predicted_chunk.pt')
+predicted_chunk = torch.load('/nas/longleaf/home/samarth/phrases/predicted_chunk.pt')
 
 # Assuming the tensor needs to be converted to a 1D numpy array for audio conversion
 predicted_chunk_numpy = predicted_chunk.numpy().flatten()
