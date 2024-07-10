@@ -16,7 +16,7 @@ def pad_audio(audio, target_length):
     return audio
 
 # Load phrase_11 to determine the target length
-file_name_longest = '/Users/samarthrao/Downloads/Todi_Audio_Files/KVN_todi_1/phrases/phrase_11.mp3'
+file_name_longest = '/nas/longleaf/home/samarth/phrases/phrase_11.mp3'
 y_longest, sr_longest = librosa.load(file_name_longest, sr=None)
 target_length = len(y_longest)
 print(f"Target length in samples (from phrase_11): {target_length}")
